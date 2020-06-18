@@ -1,34 +1,37 @@
-#include <stdlib.h>
-char*	greet(const char *language)
-{
-	char	*str;
-	int	x;
-	int	n;
+#include <string.h>
 
-	str = (char*)malloc(sizeof(char) * 10);
-	char	*arrayl[] =
+const char*	greet(char* language)
+{
+	int	i;
+	i = 0;
+	char* database[][2] =
 	{
-		"english", "czech", "danish", "dutch", "estonian",
-		"finnish", "flemish", "french", "german", "irish",
-		"italian", "latvian", "lithuanian", "polish", "spanish",
-		"swedish", "welsh"
+		{"english", "Welcome"},
+		{"czech", "Vitejte"},
+		{"danish", "Velkomst"},
+		{"dutch", "Welkom"},
+		{"estonian", "Tere tulemast"},
+		{"finnish", "Tervetuloa"},
+		{"flemish", "Welgekomen"},
+		{"french", "Bienvenue"},
+		{"german", "Willkommen"},
+		{"irish", "Failte"},
+		{"italian", "Benvenuto"},
+		{"latvian", "Gaidits"},
+		{"lithuanian", "Laukiamas"},
+		{"polish", "Witamy"},
+		{"spanish", "Bienvenido"},
+		{"swedish", "Valkommen"},
+		{"welsh", "Croeso"}
 	};
-	char	*arrayg[] = 
+	if ( language )
 	{
-		"Welcome", "Vitejte", "Velkomst", "Welkom", "Tere tulemast",
-		"Tervetuloa", "Welgekomen", "Bienvenue", "Willkommen", "Failte",
-	       	"Benvenuto", "Gaidits", "Laukiamas", "Witamy", "Bienvenido", 
-		"Valkommen", "Croeso"
-	};
-	n = 0;
-	while (n < 17)
-	{
-		x = 0;
-		while (language[x] == arrayl[n][x] && language[x] != 0)
-			x++;
-		if (language[x] == 0 && arrayl[n][x] == 0)
-			return (arrayg[n]);
-		n++;
+		while ( i < 17)
+		{
+			if ( !strcmp( language, database[i][0] ) )
+				return database[i][1];
+			i++;
+		}
 	}
-	return ("Welcome");
+	return database[0][1];
 }
