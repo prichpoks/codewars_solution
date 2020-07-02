@@ -1,0 +1,59 @@
+[33mcommit 0ae1aeeb5eb3255961e0ac3aafe40dce2b0416d4[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: 0f4c190 0cca391
+Author: Sergey <66629156+prichpoks@users.noreply.github.com>
+Date:   Fri Jun 19 12:50:56 2020 +0300
+
+    Merge pull request #2 from prichpoks/prichpoks_task_7-kyu
+    
+    Prichpoks task 7 kyu
+
+[33mcommit 0cca39194fb561b7ea571f7756b2f4074ca8b33b[m[33m ([m[1;31morigin/prichpoks_task_7-kyu[m[33m, [m[1;32mprichpoks_task_7-kyu[m[33m)[m
+Author: Prichpoks <prichpoks@icloud.com>
+Date:   Fri Jun 19 12:46:59 2020 +0300
+
+    fixed file Interviw_Question_easy
+
+[33mcommit d63ed9867d9d78a21fe740a05e7c1a8aabf10304[m
+Author: Prichpoks <prichpoks@icloud.com>
+Date:   Thu Jun 18 19:12:29 2020 +0300
+
+    created dir 7-kyu, add file Interview_Question_easy
+
+[33mcommit 0f4c190facf7497272a75a7947db6289aee2d80b[m
+Merge: 697aca1 10e9371
+Author: Sergey <66629156+prichpoks@users.noreply.github.com>
+Date:   Thu Jun 18 18:10:30 2020 +0300
+
+    Merge pull request #1 from prichpoks/Subtr_task
+    
+    Subtr task
+
+[33mcommit 10e93717d3c9afdca7d477c4447c196d40d0ea23[m
+Author: Prichpoks <prichpoks@icloud.com>
+Date:   Thu Jun 18 18:02:05 2020 +0300
+
+    created dir 8-kyu
+
+[33mcommit 46cb58f8b54801247ecbd8db974d835b95fc284e[m
+Author: Prichpoks <prichpoks@icloud.com>
+Date:   Thu Jun 18 17:35:32 2020 +0300
+
+    added file SubrtacttheSum, fixed files Welcome1, Welcome2, GetPlanetNameByID
+
+[33mcommit 697aca1f1f443c8e3986bb080fb60be79a833599[m
+Author: Prichpoks <prichpoks@icloud.com>
+Date:   Thu Jun 18 12:12:05 2020 +0300
+
+    added file GetPlanetNameByID
+
+[33mcommit e2bdbd000dc3a9c7c8740cd9c719f89f02893504[m
+Author: Prichpoks <prichpoks@icloud.com>
+Date:   Thu Jun 18 10:58:48 2020 +0300
+
+    created dir 'c', added files Welcome1/Welcome2
+
+[33mcommit 46e9212b1f4cfc80c4a290ff61444bee8c13f990[m
+Author: Sergey <66629156+prichpoks@users.noreply.github.com>
+Date:   Thu Jun 18 10:39:24 2020 +0300
+
+    Initial commit
